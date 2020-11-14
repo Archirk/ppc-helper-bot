@@ -1,0 +1,32 @@
+{
+  "ppc_helper":
+  {
+    "workers_count": 3
+  },
+  "bot":
+  {
+    "token": "1086129303:AAFnk4dOkIhdkWVmiaCJSTVLDlwHBVn7S7U",
+    "parse_mode": "MARKDOWN"
+  },
+  "db_manager":
+  {
+    "host": "balarama.db.elephantsql.com",
+    "user": "ybtuehnw",
+    "password": "UXc7PFXYaV7tJpTV1-zy0BsOJCZ0YWf8",
+    "db": "ybtuehnw",
+    "port": 5432,
+    "max_connections": 5,
+    "tables_json": "ppc_helper/db_manager/tables.json"
+  },
+  "function_handlers":
+  {
+    "vk":
+    {
+      "app_id": 7622307,
+      "client_secret": "ECgV1NeQLJmHkuLiY0qe",
+      "token": "f5e6af3611a528a2cf66bdb598dd79631de10268fa7d7ca7961b2b69576e12c66174ad25c2904d94d517f",
+      "scope": 65536,
+      "api_version": "5.124"
+    }
+  }
+}

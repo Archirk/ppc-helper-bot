@@ -1,0 +1,26 @@
+{
+  "users": {
+    "chat_id": "BIGINT PRIMARY KEY NOT NULL",
+    "username": "VARCHAR(255)",
+    "launch_datetime":  "TIMESTAMP"
+  },
+  "queries": {
+    "index": "SERIAL PRIMARY KEY",
+    "query_id": "TEXT NOT NULL",
+    "chat_id": "BIGINT NOT NULL ",
+    "query_time": "TIMESTAMP",
+    "is_inplace": "BOOLEAN",
+    "input_required": "BOOLEAN",
+    "response_required": "BOOLEAN",
+    "handler": "VARCHAR(10)",
+    "func": "VARCHAR(70)",
+    "status": "VARCHAR(30)",
+    "query_finish_time": "TIMESTAMP",
+    "data": "TEXT",
+    "result_weight_kb":"BIGINT"
+  },
+  "active_sessions": {
+    "chat_id": "BIGINT PRIMARY KEY",
+    "info": "TEXT"
+  }
+}

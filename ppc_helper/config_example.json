@@ -1,0 +1,32 @@
+{
+  "ppc_helper":
+  {
+    "workers_count": 1
+  },
+  "bot":
+  {
+    "token": "",
+    "parse_mode": "MARKDOWN"
+  },
+  "db_manager":
+  {
+    "host": "",
+    "user": "",
+    "password": "",
+    "db": "",
+    "port": 5432,
+    "max_connections": 1,
+    "tables_json": ""
+  },
+  "function_handlers":
+  {
+    "vk":
+    {
+      "app_id": 0,
+      "client_secret": "",
+      "token": "",
+      "scope": 0,
+      "api_version": ""
+    }
+  }
+}
